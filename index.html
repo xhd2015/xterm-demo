@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>xterm.js integration test fixture</title>
+     <link rel="stylesheet" href="/css/xterm.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="./dist/client.js" ></script>
+  </head>
+  <body>
+  <div>
+     <select id="select" onchange="onSelect(this)">
+        <option value="hello world">Hello world</option>
+        <option value="websocket">Websocket</option>
+     </select>
+  </div>
+    <div id="terminal-container"></div>
+  </body>
+</html>
